@@ -1,0 +1,73 @@
+.modal-create-main-container{
+    position: absolute;
+    background-color: rgba(36, 36, 36, .5);
+    backdrop-filter: blur(8px);
+    top: 0;
+    width: 100vw;
+    height: 94vh;
+    
+}
+
+
+.note-create-form-container{
+    height: auto;
+    width: 100%;
+    height: 80%;
+    
+   
+    background-color: var(--color-f);
+    border-radius: 16px;
+    padding-bottom: 2em;
+}
+.note-create-main-container{
+    height: 100vh;
+    
+}
+
+.note-create-text-label-container input{
+   padding: 1em;
+   width: 100%;
+   border-radius: 12px;
+   border: 2px solid var(--color-b);
+   transition: .2s ease-in;
+}
+.note-create-text-label-container input:focus{
+ outline: none;
+}
+.note-create-text-label-container input:hover{
+   outline: none;
+   border: 2px solid var(--color-a);
+   padding-top: 1.5em;
+   padding-bottom: 1.5em;
+}
+
+.note-create-text-label-container{
+   width: 80%;
+    padding: 3em;
+    
+}
+
+.note-create-submit-input{
+    background-color: var(--color-a);
+    
+}
+
+.note-create-submit-input:active{
+    background-color: var(--color-b);
+    
+    }
+
+.note-create-text-label-container textarea{
+    padding: 1em;
+    height: 80px;
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid var(--color-b);
+    transition: .2s ease-in;
+}
+.note-create-text-label-container textarea:hover{
+   outline: none;
+   border: 2px solid var(--color-a);
+   padding-top: 1.5em;
+   padding-bottom: 1.5em;
+}

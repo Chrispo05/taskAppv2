@@ -1,0 +1,40 @@
+
+.home-info-section-main-container{
+    height: 86vh;
+}
+
+.home-info-section-container{
+    
+   align-self: flex-end;
+    
+}
+
+.info-section-user-img-container{
+    border: none;
+}
+.info-section-user-img-container img{
+    border: none;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.home-info-section-plus-button{
+    background-color: var(--color-a);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 10px;
+    
+    border: none;
+    transition: .1s ease-in;
+}
+.home-info-section-plus-button p{
+    margin-left: 1em;
+}
+.home-info-section-plus-button:active{
+    background-color: var(--color-b);
+    padding-left: 1.5em;
+}

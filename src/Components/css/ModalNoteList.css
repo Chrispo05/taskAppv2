@@ -1,0 +1,91 @@
+.modal-note-list-main-container{
+    position: absolute;
+    background-color: rgba(36, 36, 36, .5);
+    backdrop-filter: blur(8px);
+    top: 0;
+    
+    height: 100vh;
+    z-index: 50;
+    width: 100vw;
+    
+}
+.modal-note-list-container{
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    height: 100vh;
+    
+  
+ 
+    
+}
+.modal-note-card-main-container{
+  width: 40%;
+  height:40vh;
+  
+  max-height: 50vh;
+ margin-top: 2em;
+  border-radius: 12px;
+  margin-right: .8em;
+  margin-left: .8em;
+  background-color: aliceblue;
+}
+.modal-note-list-card-container{
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 800px;
+    padding-bottom: 140px;
+    
+}
+.modal-note-card-edit-icon{
+    background-color: var(--color-c);
+    border-radius: 6px;
+    padding: .4em;
+
+}
+.modal-note-card-edit-icon2{
+    background-color: var(--color-b);
+    border-radius: 6px;
+    padding: .4em;
+}
+
+.modal-note-icon-container{
+    align-self: flex-end;
+    padding-top: .2em;
+    padding-bottom: .1em;
+   margin-right: .3em;
+   margin-left: .3em;
+}
+
+
+.modal-note-card-margin-top{
+    margin-top: 6em;
+}
+
+
+.modal-note-card-title-container{
+    background-color: var(--color-a);
+    width: 100%;
+    border-radius: 10px;
+    margin-top: -2px;
+    height: auto;
+    text-align: center;
+    border: 4px solid var(--color-a);
+    
+
+}
+.modal-note-card-title-container p{
+    width: 90%;
+}
+.modal-note-card-body-container{
+    width: 90%;
+    overflow: scroll;
+    height: 80%;
+   
+  
+}
+.modal-note-card-body-container p{
+    word-break: break-all;
+ 
+  
+}

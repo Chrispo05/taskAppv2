@@ -1,0 +1,54 @@
+.nav-bar-main-container{
+    position: absolute;
+    width: 100%;
+    background-color: var(--color-f);
+   
+    bottom: 0;
+    z-index: 60;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+
+
+
+.navBar-container{
+   
+    height: 54px;
+   
+    width: 100%;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 8px solid var(--color-a);
+    border-radius: 16px;
+    background-color: var(--color-f);
+   
+    
+    backdrop-filter: blur(4px);
+    z-index: 200;
+    
+   
+}
+
+.navBar-icon-container{
+    width: 14%;
+    height:auto;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 8px;
+    background-color: var(--color-a);
+  
+    
+}
+
+.navBar-icon-img-container img{
+    width: 20px;
+}
+
+
+

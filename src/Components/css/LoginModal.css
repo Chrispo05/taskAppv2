@@ -1,0 +1,116 @@
+.login-modal-main-container{
+    position: absolute;
+    z-index: 30;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(36, 36, 36, .4);
+    backdrop-filter: blur(4px);
+}
+
+.loginButton{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    height: 60px;
+    bottom: 0;
+    border: 2px solid var(--color-a);
+    border-radius: 16px;
+    color: var(--color-a);
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.login-modal-form{
+    width: 60%;
+    padding: 2em;
+    border-radius: 16px;
+    background-color: var(--color-f);
+}
+
+.login-modal-container{
+    width: 100%;
+    height:auto;
+}
+
+label p{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+input[type=email]{
+    padding: 1em;
+    border: 2px solid var(--color-b);
+    border-radius: 14px;
+    transition: .2s ease-in;
+    
+    
+    
+}
+
+input[type=email]:focus{
+    outline: none;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    border: 2px solid var(--color-a);
+    
+    
+    
+}
+input[type=password]{
+    padding: .5em;
+    border: 2px solid var(--color-b);
+    border-radius: 10px;
+    transition: .2s ease-in;
+    
+}
+input[type=password]:focus{
+    outline: none;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    border: 2px solid var(--color-a);
+    
+    
+    
+}
+input[type=name]{
+    padding: .5em;
+    border: 2px solid var(--color-b);
+    border-radius: 10px;
+    transition: .2s ease-in;
+    
+}
+input[type=name]:focus{
+    outline: none;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    border: 2px solid var(--color-a);
+    
+    
+    
+}
+
+input[type=submit]{
+    width: 120px;
+    padding: .5em;
+    border: none;
+    background-color: var(--color-a);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+
+
+.login-modal-create-account-p{
+    text-decoration: underline;
+}
+
+.form-create-p{
+    margin-bottom: 0px;
+}
